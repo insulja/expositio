@@ -21,13 +21,13 @@ get_header(); ?>
 	?><!--
 
 	--><div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-		<?php if(expositio_is_mobile()): ?><a class="image_link" href="<?php the_permalink(); ?>"><?php endif; ?>
-		<?php echo expositio_image_tag(get_post_thumbnail_id()); ?>
-		<?php if(expositio_is_mobile()): ?></a><?php endif; ?>
+		<a class="image_link" href="<?php the_permalink(); ?>">
+			<?php echo expositio_image_tag(get_post_thumbnail_id()); ?>
+		</a>
 		<?php if (get_the_title() != ''): ?>
-			<div>
-				<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-			</div>
+		<div>
+			<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+		</div>
 		<?php endif; ?>
 	</div><!--
 
