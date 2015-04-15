@@ -89,7 +89,7 @@ function fixLinks(items) {
 			fixed.header.css('top', header_top);
 		}
 	};
-	// fixed.init();
+	fixed.init();
 
 	// index gallery
 	var index = {
