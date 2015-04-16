@@ -45,9 +45,9 @@
 				</nav>
 				<footer id="colophon" class="site-footer" role="contentinfo">
 					<div class="site-info">
-						<!-- &#169; 2003 -->
+						&#169; 2003
 						<!-- <?php bloginfo('description'); ?><br>&#169; 2003 -->
-						<!-- Build by <a href="https://github.com/waltz4lucy" target="_blank">Minho Kim</a><br>&#169; 2003 -->
+						<!-- Build by <a href="https://github.com/waltz4lucy" target="_blank">Sur+</a><br>&#169; 2003 -->
 					</div> <!-- .site-info -->
 				</footer><!-- #colophon -->
 			</header><!-- #masthead -->

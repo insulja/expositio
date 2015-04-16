@@ -1417,7 +1417,6 @@ body.page .entry-header,
 	body.home .hentry img {
 		height: 100%;
 		width: auto;
-
 		/*filter: grayscale(100%);*/
 		/*-webkit-filter: grayscale(100%);*/
 		/*filter: gray;*/
@@ -1647,11 +1646,11 @@ body.page .entry-header,
     position: relative;
     display: block;
     overflow: hidden;
-    /*transition: all 200ms ease-out;*/
     cursor: pointer;
     margin-bottom: 20px;
     margin-bottom: 2rem;
     max-width: 100%;
+    /*transition: all 200ms ease-out;*/
     /*filter: grayscale(100%);*/
     /*-webkit-filter: grayscale(100%);*/
     /*filter: gray;*/
