@@ -1054,8 +1054,8 @@ img.aligncenter,
 .menu-toggle {
 	display: none;
 	position: absolute;
-	top: 10px;
-	top: 1rem;
+	top: 18px;
+	top: 1.8rem;
 	right: 20px;
 	right: 2rem;
 	margin: 0;
@@ -1448,8 +1448,8 @@ body.page .entry-header,
 @media (max-width: 950px) {
 	.site-header {
 		height: auto !important;
-		padding: 10px 20px 30px;
-		padding: 1rem 2rem 3rem;
+		padding: 20px 20px 20px;
+		padding: 2rem 2rem 2rem;
 	}
 
 	#header-helper {
