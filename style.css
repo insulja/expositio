@@ -1415,11 +1415,8 @@ body.page .entry-header,
 	}
 
 	body.home .hentry img {
-		width: auto;
 		height: 100%;
-		height: -moz-calc(100% - 28px);
-		height: -webkit-calc(100% - 28px);
-		height: calc(100% - 28px);
+		width: auto;
 
 		/*filter: grayscale(100%);*/
 		/*-webkit-filter: grayscale(100%);*/
