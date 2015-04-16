@@ -323,13 +323,3 @@ class wpShower {
  * Removes first gallery from post content
  */
 add_filter('the_content', array('wpShower', 'catchGallery'), 1, 1);
-
-/**
- * Mobile detect
- */
-function expositio_is_mobile() {
-	require_once 'mobiledetect/Mobile_Detect.php';
-	$detect = new Mobile_Detect;
-
-	return $detect->isMobile();
-}
