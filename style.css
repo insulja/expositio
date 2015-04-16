@@ -1076,8 +1076,8 @@ img.aligncenter,
 	display: none;
 	position: absolute;
 	z-index: 10000;
-	top: 10px;
-	top: 1rem;
+	top: 18px;
+	top: 1.8rem;
 	right: 20px;
 	right: 2rem;
 	font-size: 30px;
